@@ -74,8 +74,8 @@ img {
 }
 
 .header {
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
+  /* padding-top: 32px; */
+  /* padding-bottom: 32px; */
   border: 1px solid #ececec;
 }
 
@@ -159,7 +159,6 @@ img {
 .hero {
   background-color: var(--bg-footer-color);
   text-align: center;
-  /* ==================================================  зроби, а не пробуй*/
   /* max-width: 1600px; */
 
   background-image: linear-gradient(
@@ -169,7 +168,6 @@ img {
     url("../img/bg/hero-bg.jpg");
   /* background-repeat: no-repeat; */
   background-size: cover;
-  /* ================================================== */
 }
 
 .hero-title {
@@ -202,11 +200,15 @@ img {
 /* <!--hero  OUT-->*/
 
 /*<!--<!--benefits-->  IN-->*/
+.section-advantages {
+  padding-top: 94px;
+}
+
 .advantages-list {
   display: flex;
   align-items: center;
   margin-left: auto;
-  margin-top: 94px;
+  /* margin-top: 94px; */
 }
 
 .advantages-item:not(:last-child) {
@@ -420,11 +422,12 @@ img {
 /*<!--footer IN-->*/
 
 .address-contact-item {
+  padding-top: 9px;
   line-height: 1.714;
 }
 
 .filters-section {
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .logotype-footer {
