@@ -17,27 +17,37 @@
     <header class="header">
         <div class="container">
             <nav class="navigation">
-                
+    
                 <a lang="en" class="logotype" href="https://mark4titan.github.io/goit-markup-hw-03/" target="_blank"> <span
                         class="accent">Web</span>Studio</a>
-
+    
+    
                 <ul class="navigation-list lists-without-dots">
-                    <li class="navigation-list-item">
-                        <a class="nav" href="index.html"> Студия</a>
-                    </li>
-                    <li class="navigation-list-item">
-                        <a class="nav accent" href="portfolio.html"> Портфолио </a>
-                    </li>
-                    <li class="navigation-list-item">
-                        <a class="nav" href="contacts.html">Контакты</a>
-                    </li>
+                    <li class="navigation-list-item"><a class="nav" href="index.html"> Студия</a></li>
+                    <li class="navigation-list-item"><a class="nav accent" href="portfolio.html"> Портфолио </a></li>
+                    <li class="navigation-list-item"><a class="nav" href="contacts.html">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="contact-list lists-without-dots">
-                <li class="contact-item"><a class="nav contact-list-link" href="mailto:info@devstudio.com">
-                        info@devstudio.com </a> </li>
-                <li class="contact-item"><a class="nav contact-list-link" href="tel:+380961111111"> +38 096 111 11 11 </a>
+    
+                <li class="contact-item">
+                    <a class="nav contact-list-link" href="mailto:info@devstudio.com">
+                        <svg width="16" height="12" class="icon-envelope">
+                            <use href="./img/sprite.svg#envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
                 </li>
+    
+                <li class="contact-item">
+                    <a class="nav contact-list-link" href="tel:+380991111111">
+                        <svg width="10" height="16" class="icon-Vector">
+                            <use href="./img/sprite.svg#Vector"></use>
+                        </svg>
+                        +38 099 111 11 11
+                    </a>
+                </li>
+    
             </ul>
         </div>
     </header>
@@ -170,36 +180,69 @@
         </section>
 
 
-    <!--footer-->
-    <footer class="footer">
-        <div class="container">
-    
-            <a lang="en" class="logotype footer-logo" href="/" target="_blank"> <span class="accent">Web</span><span
-                    class="logotype-footer">Studio</span></a>
-    
-    
-    
-            <address class="address-footer">
-    
-                <!-- <a class="link contact nav address-contact-geolocation-link" href="https://goo.gl/maps/DWjBWCekdM1EBfGf9"
-                                            target="_blank"> -->
-                <!-- <p>г. Киев, пр-т Леси Украинки, 26</p> -->
-                <!-- </a> -->
-    
-    
-                <p class="address-contact-geolocation-link">г. Киев, пр-т Леси Украинки, 26</p>
-    
-    
-    
+<!--footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-container">
+
+            <div class="footer-address">
+                <a lang="en" class="logotype footer-logo" href="/" target="_blank"> <span class="accent">Web</span><span
+                        class="logotype-footer">Studio</span></a>
+
+
+
+
+                <address class="address-footer">г. Киев, пр-т Леси Украинки, 26</address>
+
+
                 <ul class="address-list lists-without-dots">
-                    <li class="address-contact-item"><a class="link contact address-contact-link"
-                            href="mailto:info@devstudio.com"> info@devstudio.com </a> </li>
-                    <li class="address-contact-item"><a class="link contact address-contact-link" href="tel:+380961111111">
-                            +38 096 111 11 11 </a> </li>
+                    <li class="address-contact-item"><a class="link address-contact-link"
+                            href="mailto:info@example.com">info@example.com </a> </li>
+                    <li class="address-contact-item"><a class="link address-contact-link" href="tel:+380991111111"> +38
+                            099 111 11 11 </a> </li>
                 </ul>
-            </address>
+            </div>
+
+
+
+            <div class="footer-connection">
+                <h3 class="footer-title-connection">присоединяйтесь</h3>
+
+                <ul class="footer-connection-list lists-without-dots">
+                    <li class="footer-connection-itam">
+                        <a class="footer-connection-ico" href="#">
+                            <svg width="20" height="20" class="social-list-icon">
+                                <use href="./img/sprite.svg#instagram"></use>
+                            </svg></a>
+                    </li>
+
+                    <li class="footer-connection-itam">
+                        <a class="footer-connection-ico" href="#">
+                            <svg width="20" height="20" class="social-list-icon">
+                                <use href="./img/sprite.svg#twitter"></use>
+                            </svg></a>
+                    </li>
+
+                    <li class="footer-connection-itam">
+                        <a class="footer-connection-ico" href="#">
+                            <svg width="20" height="20" class="social-list-icon">
+                                <use href="./img/sprite.svg#facebook"></use>
+                            </svg></a>
+                    </li>
+
+                    <li class="footer-connection-itam">
+                        <a class="footer-connection-ico" href="#">
+                            <svg width="20" height="20" class="social-list-icon">
+                                <use href="./img/sprite.svg#linkedin"></use>
+                            </svg></a>
+                    </li>
+
+                </ul>
+            </div>
         </div>
-    </footer>
+
+    </div>
+</footer>
     
 </body>
 </html>
