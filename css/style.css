@@ -247,8 +247,8 @@ img {
 }
 
 .advantages-paragraph-item {
-  width: 270px;
-  height: 75px;
+  /* width: 270px; */
+  /* height: 75px; */
   color: var(--color-font-gray);
 
   font-style: normal;
@@ -300,10 +300,11 @@ img {
 /* ================+++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .section-do .container {
-  padding-top: 94px;
+  /* padding-top: 94px; */
 }
 
 .section-do {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
