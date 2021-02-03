@@ -291,14 +291,27 @@ img {
 }
 /* ==============+++++++++++++++++++++++++++++++++++++++++++++++ */
 
-.connection-itam:hover,
+/* .connection-ico:hover,
+.connection-ico:focus {
+  background-color: var(--color-font-accent);
+} */
+
+.connection-ico:hover .social-list-icon,
+.connection-ico:focus .social-list-icon,
+.connection-ico:hover,
+.connection-ico:focus {
+  fill: var(--color-font-light);
+  background-color: var(--color-font-accent);
+}
+
+/* .connection-itam:hover,
 .connection-itam:focus {
   background-color: var(--color-font-accent);
 }
 .connection-itam:hover .connection-ico,
 .connection-itam:focus .connection-ico {
   fill: var(--color-font-light);
-}
+} */
 /* ================+++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .section-do .container {
